@@ -11,6 +11,10 @@ class Ville
 public:
 	Ville(string nom, int num, double longi, double lati);
 	~Ville(); 
+	string getNomVille();
+	int getNumVille();
+	double getLongitude();
+	double getLatitude();
 
 private:
 	string nomVille;
