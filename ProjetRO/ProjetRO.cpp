@@ -2,9 +2,12 @@
 //
 
 #include <iostream>
+#include "Tournee.h"
 
 int main()
 {
+    Tournee tour = Tournee();
+    tour.
     std::cout << "Hello World!\n";
 }
 
